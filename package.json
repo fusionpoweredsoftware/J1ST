@@ -1,0 +1,20 @@
+{
+  "name": "j1st",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "## Overview J1ST, short for JSON 1ST, is a Node.js tool for linting and running JS files. It helps in the verification of parameters by displaying them before the program is run, organizing them into a JSON file with the same base name as the JS file, and prompting the user for confirmation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fusionpoweredsoftware/J1ST.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fusionpoweredsoftware/J1ST/issues"
+  },
+  "homepage": "https://github.com/fusionpoweredsoftware/J1ST#readme"
+}

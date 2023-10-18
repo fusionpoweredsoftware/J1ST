@@ -1,0 +1,1 @@
+const path = await import("path"); const filename = process.argv[1]; const fullPath = path.resolve(filename); import j1st from "/usr/local/bin/j1st.jsh.mjs"; j1st.configDataOnly(fullPath);

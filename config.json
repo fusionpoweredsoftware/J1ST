@@ -1,0 +1,7 @@
+{
+        "editor": "code",
+        "environmentalVariables": {
+                "nameSpecifier": "J1ST",
+		"defaultConfirmation": "ONENTER"
+        }
+}
