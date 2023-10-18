@@ -15,7 +15,7 @@ if (os.platform() !== 'win32') {
         fs.mkdirSync(destinationDir);
     }
 
-    // Copy the Bash script to the destination directory
+    // Generate the JSH file in the destination directory and copy config files there
     p.execSync(`node jsh/generate ${j} ${path.join(destinationDir, j)}.jsh.mjs`);
     fs.copyFileSync("config.json", path.join(os.homedir(), '.'+j, 'config.json'));
     fs.copyFileSync("config-data-only.js", path.join(os.homedir(), '.'+j, 'config-data-only.js'));
